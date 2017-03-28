@@ -34,7 +34,7 @@
 
         Caroupage.updateBackgroundImage = function() {
           var body = document.body
-          body.style.background = 'url(' + this.slides[this.index] + ')'
+          body.style.backgroundImage = 'url(' + this.slides[this.index] + ')'
         }
 
         Caroupage.showHideContent = function() {
